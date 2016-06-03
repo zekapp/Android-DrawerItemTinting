@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="navdrawer_text_color">#de000000</color>
+    <color name="navdrawer_text_color_selected">#ff006574</color>
+    <color name="navdrawer_icon_tint">#444</color>
+    <color name="navdrawer_icon_tint_selected">#ff006574</color>
+    <color name="black">#2d9716</color>
+    <color name="color1">#975d16</color>
+    <color name="color2">#971630</color>
+</resources>

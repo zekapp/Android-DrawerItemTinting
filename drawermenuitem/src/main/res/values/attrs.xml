@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ForegroundView">
+        <attr name="android:foreground" />
+        <attr name="android:foregroundInsidePadding" />
+        <attr name="android:foregroundGravity" />
+    </declare-styleable>
+
+    <declare-styleable name="NavDrawerItemView">
+        <attr name="navItemIcon" format="reference" />
+        <attr name="navItemText" format="string" />
+        <attr name="isHorizontal" format="boolean" />
+        <attr name="iconTints" format="color" />
+        <attr name="textTints" format="color" />
+        <attr name="navPaddingDrawable" format="dimension" />
+    </declare-styleable>
+</resources>

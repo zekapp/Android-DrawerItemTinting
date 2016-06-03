@@ -1,0 +1,19 @@
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_height="@dimen/navdrawer_item_icon_size"
+        android:layout_width="@dimen/navdrawer_item_icon_size"
+        android:layout_gravity="start|center_vertical"
+        android:src="@drawable/ic_done_black_24dp"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center_vertical"
+        android:textColor="@color/navdrawer_item_title"
+        android:text="Item1" />
+
+</merge>
