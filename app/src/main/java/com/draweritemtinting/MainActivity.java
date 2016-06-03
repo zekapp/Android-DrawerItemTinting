@@ -9,7 +9,11 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.drawermenuitem.NavDrawerItemView;
+
 public class MainActivity extends AppCompatActivity {
+
+    private NavDrawerItemView mTintingItem;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,8 +28,11 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
+                mTintingItem.setActivated(!mTintingItem.isActivated());
             }
         });
+
+        mTintingItem = (NavDrawerItemView)findViewById(R.id.tinting_item);
     }
 
     @Override
